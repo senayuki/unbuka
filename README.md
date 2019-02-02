@@ -12,7 +12,7 @@ __BukaFile__ 类用于解析和拆解.buka文件
 __BupFloder__ 类用于解析章节文件夹中的文件  
 以上两个类都直接将文件或路径作为参数构造即可  
 以上类都有以下方法  
-export_buka_to_Dict：解压文件到字典file_Dict{文件名:数据}  
+export_buka_to_Dict：解压文件到字典file_Dict{文件名:数据}（字典是成员变量，无返回值）  
 export_buka_to_File：解压文件到指定目录  
 convert_to_WebP：拆解出WebP文件  
 
